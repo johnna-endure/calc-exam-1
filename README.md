@@ -16,4 +16,11 @@
 - 다시 master 브랜치를 체크아웃해 feature/기능 브랜치를 merge하고 feature/기능 브랜치 삭제
 
 
+참고 : feature 브랜치를 로컬에서 지웠지만 원격 저장소에는 해당 브랜치가 아직 남아있을 수 있음.
+그럴 경우
+```
+git push origin --delete feature/add 
+```
+와 같은 방식으로 지울 수 있음.
+
 

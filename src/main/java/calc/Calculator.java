@@ -3,7 +3,7 @@ package calc;
 public class Calculator {
     //더하기
     public int add(int a, int b) {
-        return a+b-1;
+        return a+b+1;
     }
 
     //빼기
